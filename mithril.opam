@@ -3,9 +3,9 @@ opam-version: "2.0"
 synopsis: "Js_of_ocaml bindings for MithrilJS"
 maintainer: ["pf341@patricoferris.com"]
 authors: ["pf341@patricoferris.com"]
-homepage: "https://github.com/ocurrent/jsoo-mithril"
+homepage: "https://github.com/roddyyaga/jsoo-mithril"
 doc: "https://github.com/patricoferris/jsoo-mithril"
-bug-reports: "https://github.com/ocurrent/jsoo-mithril/issues"
+bug-reports: "https://github.com/roddyyaga/jsoo-mithril/issues"
 depends: [
   "dune" {>= "2.7"}
   "brr"
@@ -25,4 +25,4 @@ build: [
     "@doc" {with-doc}
   ]
 ]
-dev-repo: "git+https://github.com/ocurrent/jsoo-mithril.git"
+dev-repo: "git+https://github.com/roddyyaga/jsoo-mithril.git"
